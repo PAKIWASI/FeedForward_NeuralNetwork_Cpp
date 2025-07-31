@@ -1,0 +1,13 @@
+# ======================= #
+# Build system (CMake/Ninja)
+# ======================= #
+build/          # Ignore all CMake/Ninja build directories
+.ninja_deps     # Ninja dependency files
+.ninja_log      # Ninja build log
+compile_commands.json  # Optional: Remove if you want to keep it
+
+# ======================= #
+# Temporary/IDE files
+# ======================= #
+*.swp           # Vim swap files
+*~              # Backup files
