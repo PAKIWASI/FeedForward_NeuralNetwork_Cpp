@@ -1,0 +1,13 @@
+# ======================= #
+# Build system (CMake/Ninja)
+# ======================= #
+build/          # Ignore all CMake/Ninja build directories
+data/
+.cache/
+compile_commands.json
+
+# ======================= #
+# Temporary/IDE files
+# ======================= #
+*.swp           # Vim swap files
+*~              # Backup files
